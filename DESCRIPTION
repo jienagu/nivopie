@@ -1,0 +1,17 @@
+Package: nivopie
+Title: Package
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jiena",
+           family = "McLellan",
+           role = c("aut", "cre"),
+           email = "jienagu90@gmail.com")
+Description: This is an htmlwidget that create interactive pie chart. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    htmltools,
+    htmlwidgets,
+    reactR
+RoxygenNote: 6.1.0
