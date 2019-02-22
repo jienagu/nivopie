@@ -2,7 +2,9 @@
 An html widget that creates interactive pie chart
 
 ## Install from github
-Install from GitHub : devtools::install_github("jienagu/nivopie")
+Install from GitHub : 
+
+`devtools::install_github("jienagu/nivopie")`
 
 ## Usage:
 Step 1: Create a data frame with two column: id and value
