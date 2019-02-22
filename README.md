@@ -19,7 +19,7 @@ Optional: you can change color
 
 Then you can see the interactive pie chart in your RStudio View.
 
-demo
+![demo](demo.gif)
 
 Acknowledgement
 @timelyportfolio (https://github.com/react-R/nivocal) and reactR (Alan Dipert)
