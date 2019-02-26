@@ -13,7 +13,6 @@
 nivopie <- function(data=NULL,
                     ...,
                     width = NULL, height = NULL, elementId = NULL) {
-
   data<- mapply(
     function(id, value){
       list(id=id, value=value)
@@ -60,7 +59,7 @@ nivopie <- function(data=NULL,
 #' @name nivopie-shiny
 #'
 #' @export
-nivopieOutput <- function(outputId, width = '100%%', height = '400px'){
+nivopieOutput <- function(outputId, width = '100%', height = '400px'){
   htmlwidgets::shinyWidgetOutput(outputId, 'nivopie', width, height, package = 'nivopie')
 }
 
@@ -79,6 +78,6 @@ nivopie_html <- function(id, style, class, ...) {
     reactR::html_dependency_corejs(),
     reactR::html_dependency_react(),
     reactR::html_dependency_reacttools(),
-    htmltools::tags$div(id = id, class = class)
+    htmltools::tags$div(id = id, class = class, style = style)
   )
 }
