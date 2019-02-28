@@ -22,11 +22,28 @@ library(nivopie)
 nivopie(df2)
 ```
 
-Optional: you can change color 
+Optional: a list of common parameters
+
+All parameters are listed in nivo library: https://nivo.rocks/pie
 
 ```
-nivopie(df2, colors = RColorBrewer::brewer.pal(n=9, "Blues"))
+# devtools::install_github("jienagu/nivopie")
+library(nivopie)
+
+id=c("A", "B", "C", "D", "e", "f", "g")
+value=c(12,13,45, 90,250,300,500)
+label=c("a", "b", "c", "d", "e", "f", "g")
+df2=data.frame(id,value, label)
+df2$id=as.factor(df2$id)
+
+nivopie(df2, innerRadius=0.5, cornerRadius=5, fit=T,sortByValue=T,
+        colors='nivo', enableRadialLabels=F, radialLabelsLinkDiagonalLength=1,
+        radialLabelsLinkHorizontalLength=8,
+        enableSlicesLabels=T, sliceLabel='id',isInteractive=T)
+
 ```
+
+
 
 Then you can see the interactive pie chart in your RStudio View.
 
