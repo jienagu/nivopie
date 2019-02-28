@@ -29,7 +29,7 @@ All parameters are listed in nivo library: https://nivo.rocks/pie
 ```
 # devtools::install_github("jienagu/nivopie")
 library(nivopie)
-
+### Example:
 id=c("A", "B", "C", "D", "e", "f", "g")
 value=c(12,13,45, 90,250,300,500)
 label=c("a", "b", "c", "d", "e", "f", "g")
