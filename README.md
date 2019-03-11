@@ -49,5 +49,5 @@ Then you can see the interactive pie chart in your RStudio View.
 
 ![demo](demo.gif)
 
-Acknowledgement
+## Acknowledgement
 @timelyportfolio (https://github.com/react-R/nivocal) and reactR (Alan Dipert)
