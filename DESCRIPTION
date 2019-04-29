@@ -1,8 +1,7 @@
 Package: nivopie
 Title: Package
 Version: 0.1.0
-Authors@R: 
-    person(given = "Jiena",
+Authors@R: person(given = "Jiena",
            family = "McLellan",
            role = c("aut", "cre"),
            email = "jienagu90@gmail.com")
