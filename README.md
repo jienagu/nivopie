@@ -1,4 +1,4 @@
-# nivopie
+# nivopie <img src="hex_nivopie.png"  width="180px" align="right"/>
 An html widget that creates interactive pie chart
 
 ## Install from github
